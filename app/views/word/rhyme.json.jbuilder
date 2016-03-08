@@ -1,1 +1,0 @@
-json.name @word.graphy

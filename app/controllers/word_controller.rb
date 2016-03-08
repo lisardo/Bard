@@ -1,7 +1,10 @@
 class WordController < ApplicationController
   def rhyme
-  	@w = Word.new
-  	render json: @w
+  	@word = Word.new
+  	@word.graphy = "Potato"
+  	@word.save
+  	render json: @word
+
   end
 
   def define
