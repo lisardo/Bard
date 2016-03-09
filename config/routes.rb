@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   get 'word/rhyme' => 'word#rhyme'
-
-  get 'word/define'
+  get 'word/define/:prefix' => 'word#define'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
