@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Word.create([{ graphy: 'house', definition: 'where you live', phony: '/haʊs/' }, 
+			{ graphy: 'mouse', definition: 'small animal', phony: '/maʊs/' }])
