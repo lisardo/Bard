@@ -5,7 +5,7 @@ crawled = Wombat.crawl do
   path "/wiki/deter"
 
   # headline xpath: "// "
-  i({css: ".page-deter .mw-body .mw-body-content #siteSub"}, :text)
+  i({css: ".page-deter .mw-body .mw-body-content #mw-content-text>ol"}, :text)
   # what_is "css=.mw-content-ltr ul ol", :iterator do
 
   # end
